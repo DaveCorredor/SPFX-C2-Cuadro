@@ -65,8 +65,8 @@ a img {
 .caption::after {
     content: attr(data-title);
     top: 0;
-    background: #0083ab;
-    font-size: 40px;
+    background: "[theme: themeSecondary]";
+    font-size: 35px;
     font-weight: 300;
     padding: 30px;
     transform: translateY(-100%);
@@ -75,7 +75,7 @@ a img {
 .caption::before {
     content: attr(data-description);
     top: 50%;
-    background: #f27545;
+    background: "[theme: themeLight]";
     font-size: 14px;
     padding: 20px;
     transform: translateY(100%);
