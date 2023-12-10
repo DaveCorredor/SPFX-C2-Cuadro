@@ -13,7 +13,7 @@ export default class Cuadros extends React.Component<ICuadrosProps, {}> {
           </a>
         </div>
         <div className={ styles.cuadroItem}>
-          <a className={ styles.caption } href={this.props.enlace1} target="_blank" data-title={this.props.titulo2} data-description={this.props.texto2}>
+          <a className={ styles.caption } href={this.props.enlace2} target="_blank" data-title={this.props.titulo2} data-description={this.props.texto2}>
             <img src={this.props.enlaceimagen2} alt="Illustration of Vulture" />
           </a>
         </div>
